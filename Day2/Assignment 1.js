@@ -1,6 +1,6 @@
 
-1.Write a JS code which takes input from the user and logs it in the console
-ANS::
+/1.Write a JS code which takes input from the user and logs it in the console
+/ANS::
   <!DOCTYPE html>
 <html>
 <head>
