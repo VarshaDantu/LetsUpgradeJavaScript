@@ -1,9 +1,9 @@
-1.Take a number from a user and write a function which checks whether the number is even or
-odd. Assign the result to a variable and log that variable in the console.
-Example Input: 23
-Output: The number entered is 23 and Number is odd
+//1.Take a number from a user and write a function which checks whether the number is even or
+//odd. Assign the result to a variable and log that variable in the console.
+//Example Input: 23
+//Output: The number entered is 23 and Number is odd
 
-ANS:
+//ANS:
  <!DOCTYPE html>
 <html>
 <head>
