@@ -118,3 +118,15 @@ The slice() method slices out a piece of an array into a new array.
 
 JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
 This is always the case when you try to output an array.
+3.Ask the user if he is 21+ and log the value "Can drink", "Cannot Drink".
+var a = window.prompt("Enter the age : ");
+var b = parseInt(a);
+if(b > 21)
+{
+	console.log("Can Drink")
+}
+else
+{
+	console.log("Cannot Drink")
+}
+
