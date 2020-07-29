@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .tx{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    #div1{
+        margin-top: 200px;
+        margin-left: 500px;
+        border: solid;
+        width: 200px;
+        padding: 60px;
+        margin-bottom: 20px;
+        border-width: 10px;
+        border-color: aqua;
+        background-color: cadetblue;
+    }  
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project LetsUpgrade</title>
+</head>
+<body background="bg1.jpeg">
+<div id="div1">
+<h1 class="tx">StopWatch</h1>
+<h3 id='h32'>     </h3>
+<h3 id='h33' class="tx"></h3>
+
+<button onclick="f()" class="tx">Start</button>
+<button onclick="f1()" class="tx">Stop</button>
+<button onclick="f2()" class="tx">Restart</button>
+</div>
+</body>
+<script>
+var m=0
+var h=0
+var j=0
+var i=1
+hhh=1
+ID=0
+
+function f()
+{
+
+  ID=setInterval(()=>{
+      
+        document.getElementById('h33').innerHTML=`Time:${h}:${m}:${i}`
+        i+=1
+        if (i==60)
+        {
+            m+=1
+            i=0
+        }
+        if(m==60)
+        {
+            h+=1
+        }
+    },1000)
+}
+function f1()
+{
+    clearInterval(ID)
+}
+function f2()
+{
+    clearInterval(ID)
+    h=0,m-0,i=0
+    f()
+}
+</script>
+</html>
